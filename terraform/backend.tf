@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "YOUR BUCKET"
+    bucket = "my-european-bucket"
     prefix = "YOUR PREFIX"
   }
 }
